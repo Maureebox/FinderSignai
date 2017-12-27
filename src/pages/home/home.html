@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Signal</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+  <ion-content>
+
+
+
+
+    <ion-item>
+      <ion-label>Broker</ion-label>
+      <ion-select [(ngModel)]="gender">
+        <ion-option value="1" selected="true">Poloniex </ion-option>
+        <ion-option value="2">Bithit </ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Base Currency</ion-label>
+      <ion-select [(ngModel)]="gender">
+        <ion-option value="1" selected="true">BTC</ion-option>
+        <ion-option value="2">USD </ion-option>
+        <ion-option value="3">ETH </ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>EMA</ion-label>
+      <ion-select [(ngModel)]="gender">
+        <ion-option value="1">Open</ion-option>
+        <ion-option value="2">Close</ion-option>
+        <ion-option value="3">High </ion-option>
+        <ion-option value="4">Low</ion-option>
+        <ion-option value="5" selected="true">High/Low</ion-option>
+        <ion-option value="6">High/Low/Close</ion-option>
+        <ion-option value="7">Open/High/Low/Close</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Number Candlestick </ion-label>
+      <ion-select [(ngModel)]="gender">
+        <ion-option value="1" selected="true">15</ion-option>
+        <ion-option value="2">30</ion-option>
+        <ion-option value="3">45</ion-option>
+        <ion-option value="4">60</ion-option>
+        <ion-option value="5">75</ion-option>
+        <ion-option value="6">90</ion-option>
+      </ion-select>
+
+    </ion-item>
+
+
+
+
+  </ion-content>
