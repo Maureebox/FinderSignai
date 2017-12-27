@@ -54,6 +54,32 @@
     </ion-item>
 
 
+    <ion-item>
+      <ion-label>RSI Candlestick</ion-label>
+      <ion-select [(ngModel)]="gender">
+        <ion-option value="1" selected="true">15</ion-option>
+        <ion-option value="2">30</ion-option>
+        <ion-option value="3">45</ion-option>
+        <ion-option value="4">60</ion-option>
+        <ion-option value="5">75</ion-option>
+        <ion-option value="6">90</ion-option>
+      </ion-select>
+    </ion-item>
 
+
+    <ion-item>
+      <ion-label>Minimum Percentage RSI</ion-label>
+      <ion-select [(ngModel)]="gender">
+        <ion-option value="1" selected="true">30</ion-option>
+        <ion-option value="3">45</ion-option>
+        <ion-option value="4">60</ion-option>
+        <ion-option value="5">75</ion-option>
+        <ion-option value="6">90</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <button class="btn-find" ion-button full large  (click)="find()">Find</button>
+    </ion-item>
 
   </ion-content>
