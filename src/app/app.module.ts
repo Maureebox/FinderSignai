@@ -2,7 +2,7 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
-
+import { SetbrokerPage } from '../pages/setbroker/setbroker';
 import { FinderPage } from '../pages/finder/finder';
 import { SeeingPage } from '../pages/seeing/seeing';
 import { HomePage } from '../pages/home/home';
@@ -14,6 +14,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
+    SetbrokerPage,
     FinderPage,
     SeeingPage,
     HomePage,
@@ -26,6 +27,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+    SetbrokerPage,
     FinderPage,
     SeeingPage,
     HomePage,

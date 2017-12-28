@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { SetbrokerPage } from '../setbroker/setbroker';
+
 /**
- * Generated class for the SeeingPage page.
+ * Generated class for the SetbrokerPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,22 +10,16 @@ import { SetbrokerPage } from '../setbroker/setbroker';
 
 @IonicPage()
 @Component({
-  selector: 'page-seeing',
-  templateUrl: 'seeing.html',
+  selector: 'page-setbroker',
+  templateUrl: 'setbroker.html',
 })
-export class SeeingPage {
+export class SetbrokerPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad SeeingPage');
-  }
-
-
-  setbroker() {
-    this.navCtrl.push(SetbrokerPage);
+    console.log('ionViewDidLoad SetbrokerPage');
   }
 
 }
